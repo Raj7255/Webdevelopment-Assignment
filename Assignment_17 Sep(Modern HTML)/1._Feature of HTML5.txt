@@ -1,0 +1,11 @@
+Q.> List out of Features of HTML5?
+List of feature on html5 are:
+-> New semantic elements: html5 introduces new elements such as <header> <footer> <section> <article> <aside> <figure>
+
+-> Multimedia support: HTML5 provides better support for multimedia content such as videos, audio, and canvas.
+
+-> Offline storage: HTML5 includes the Web Storage API, which allows web applications to store data locally on the user's computer, enabling offline access to content.
+
+-> Improved validation: HTML5 introduces a more robust validation mechanism, which helps ensure that web pages are structured correctly and are more accessible to users.
+
+-> Accessibility improvements: HTML5 includes several improvements to make web pages more accessible to users with disabilities, such as better support for assistive technologies and  
