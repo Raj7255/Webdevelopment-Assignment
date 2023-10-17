@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="3_form.css">
+</head>
+<style>
+    *{
+    font-weight:2em;
+}
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 0%;
+    margin: 0%;
+}
+#div1 input{
+    /* font-size: 1.3em;
+     */width: 260px;
+}
+input{
+    border-radius: 5px;
+    /* width: 20vw; */
+}
+
+.gen-male{
+    display: inline-block;
+   
+}
+.gen-female{
+    display: inline-block;
+    
+}
+.abc{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2{
+   
+    width: 400px;
+    
+
+}
+form{
+   
+    border: 2px solid black;
+    width: 700px;
+    height: auto;
+    box-shadow: 0 12px 15px 0 rgba(7, 90, 83, 0.2), 0 20px 50px 0 rgba(10, 20, 58, 50.59);
+    padding: 10px;
+    display:flexbox;
+}
+tr{
+    width: 200px;
+    height: 20px;
+}
+input:hover{
+    background:rgb(56, 56, 55);
+}
+
+body{
+padding:25%;
+padding-top: 0px;   
+ background-image: url("3_health_insurance.png"); 
+width: 100vw;
+height: 100vh;
+        background-size: 100vw 200vh;
+        background-color: rgba(50, 28, 28, 0.4);
+        background-blend-mode:lighten;    
+        background-repeat: no-repeat;
+}
+
+button:hover{
+background-color: #ff3a03;
+border-style:outset ;
+font-weight: bold;
+
+}
+
+  
+</style>
+<body>
+      <!-- <img src="health_insurance.jpg" alt=""> -->
+    
+    <form action="">
+        <h1>Application Form</h1>
+   
+    <hr>
+
+
+        <h2>A.General Questions</h2>
+
+        <div id="div1">
+        <label for="name">Proposed Insured Name:<br><small>(please use capital letter)</small></label>
+        <input type="text" name="name" id="name" placeholder="Enter First Name"> 
+        <input type="text" name="name" id="name" placeholder="Enter Last  Name">
+        <br><br>
+        </div>
+         
+        <div>
+        <label for="date">Birth Date: </label>
+        <input type="date" name="date" id="date">
+
+         </div><br>
+        
+        
+            Gender:
+                <div class="gen-male"><input type="radio" name="radio" id="radio">
+                <label for="radio">male</label></div>
+       
+               <div class="gen-female"> <input type="radio" name="radio" id="radio">
+                <label for="radio">female</label></div><br><br>
+        
+       
+         <div id="div1">           
+         <label for="add">Address: </label>
+         <input type="add" name="address" id="add" placeholder="Enter Address"><br>
+         </div><br>
+
+         <div id="div1">
+            <label for="phoneno.">Phone No.:<label>
+            <input type="tel" name="phoneno" id="phoneno" placeholder="+91xxxxxxxx"><br>
+         </div><br>
+         
+         <div id="div1">
+         <label for="email">Email Address:</label>
+         <input type="email" name="email" id="email" placeholder="Enter Email Id"><br>
+         </div><br>
+      
+         <div id="div1">
+         <label for="number">ID Number:</label>
+         <input type="text" name="number id number" placeholder="Enter Id Number"></div><br>
+
+         
+        
+        <span>Status:
+            
+            <input type="checkbox" name="Status" id="checkbox">
+            <label for="checkbox">Single</label>
+            
+            
+            <input type="checkbox" name="Status" id="checkbox">
+            <label for="checkbox">Married</label>
+
+            
+            <input type="checkbox" name="Status" id="checkbox">
+            <label for="checkbox">Devorced</label>
+
+            
+            <input type="checkbox" name="Status" id="checkbox">
+            <label for="checkbox">Others</label>
+        </span><br><br>
+        <div id="div1">
+        <label for="text">Occupation:</label>
+        <input type="text" name="Occupaton" id="text" placeholder="Enter Occupation " ><br></div>
+
+        <p>Are you retire?
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">yes</label>
+
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">No</label></p>
+
+        <h2>B.Type Health coverage</h2>
+        <table border="2">
+            <tr>
+                <td>
+                    <p>Employee: 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Yes</label>
+                    
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">No</label></p>
+                        <p>Plan Choice:</p>
+                </td>
+            
+
+            
+                <td>
+                    <p>Spouse: 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Yes</label>
+                    
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">No</label></p>
+                        <p>Plan Choice:</p>
+                </td>
+           
+                <td>
+                    <p>Children: 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Yes</label>
+                    
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">No</label></p>
+                        <p>Plan Choice:</p>
+                </td>
+            </tr>
+            
+        </table>
+
+       
+
+         <h2>C.The Policy</h2>
+        <div>
+         <label for="number">Units:</label>
+         <input type="number" name="units" id="number" placeholder="Enter units">
+
+         <label for="number">Annual Premium:</label>
+         <input type="text" name="Annual Premium" id="number" placeholder="Enter Annual premium"></div><br>
+  
+
+         <div >
+         Payemnt Mode:
+            <input type="checkbox" name="Payemnt Mode" id="Annual">
+            <label for="Annual">Annual</label>
+
+            <input type="checkbox" name="Payemnt Mode" id="Annual">
+            <label for="Annual">Semi-Annual</label>
+
+            <input type="checkbox" name="Payemnt Mode" id="Annual">
+            <label for="Annual">Monthly PAT (complete PAT card)</label>
+        
+         </div><br>
+
+        <label for="text">Cash With Application $ :</label>
+        <input type="text" id="text" placeholder="In word"><br><br>
+      
+    
+        <span class="span">
+            
+        <input type="checkbox" name="T&c" id="text" required>
+        <label for="text">Terms & Condition</label>
+        <p>improvement should be measures regularly and assessed <br> in order for you to know what's beneficial and what is not. <br> This will help you set new targets. </p></span>
+
+                
+            <label for="text" id="sign">Signature:</label><br>
+            <textarea name="text" id="text" cols="15" rows="2"></textarea>
+       
+       
+        
+            </span><br><br>
+
+            <button>Reset</button>
+            <button>Submit</button>
+
+    </form>
+</body>
+</html>
