@@ -1,0 +1,53 @@
+Q.> Explain the z-index, with a code example.
+
+Ans--> The z-index is a property in CSS used to control the stack order of elements in a 3D layout.
+       It determines the visibility of an element based on its position in the 3D space. 
+       The z-index value is expressed as a numerical value, with higher values appearing in front of lower values.
+       The Z-index will work only for position: relative, absolute, fixed, sticky.
+
+Example with code:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#boxA {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  background-color: green;
+  height: 100px;  
+  z-index: -2;
+  width: 100px;
+}
+#boxB{
+    position: relative;
+  left: 0px;
+  top: 10px;
+  z-index:-1; 
+  background-color: rgb(236, 236, 14);
+  height: 100px;
+  width: 100px;
+}
+#boxC{
+    position: relative;
+  left: 0px;
+  top: 10px;
+  z-index: 1; 
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+</style>
+<body>
+    <div class="container">
+        <div id="boxA" class="box">A</div>
+        <div id="boxB" class="box">B</div>
+        <div id="boxC" class="box">C</div>
+    </div>
+</html>
