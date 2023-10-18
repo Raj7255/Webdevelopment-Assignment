@@ -1,9 +1,0 @@
-Q.  Expalin the purpose of comments in HTML?
-Ans. In HTML, comments are used to add explanatory notes or remarks within the code. They are ignored by the browser and do not affect the page's display.
-   Comments begin with the symbol <!-- and continue untill the end of the line, or are enclosed in pairs of--> to end the comment.
-   Comments are useful for documenting code and making it easier to understand for other developers or in the future.
- 
-
-There are two way doing comments in HTML.
-1. Single-line comment
-2. multi-line comments
