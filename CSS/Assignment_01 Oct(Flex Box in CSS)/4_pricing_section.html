@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing section</title>
+</head>
+<style>
+  *{
+  margin: 0;
+  padding: 0;
+  }
+body{
+border: 2px solid;
+width: 80vw;
+height: 95vh;
+display: block;
+margin: auto;
+margin-top: 12px;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+align-items: center;
+background-color: #dbd8d8;
+}
+.main_container{
+        height: 350px;
+        width: 250px;
+        padding: 40px 0px  0px 30px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px black ;
+        background-color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+        /* gap: 50px; */
+}
+.sub_container , h2, #tagline{
+  color: rgb(24, 24, 104);
+  /* background-color: red; */
+  
+  
+}
+h2{
+  font-size: 2rem;
+}
+ .pricetag{
+  color: rgb(20, 20, 129); 
+  margin: 10px;
+  gap: 20px;
+}
+.tick{
+  background-color: rgb(25, 25, 147);
+  color: white;
+  border-radius:50px;
+  padding: 3px 5px;
+  margin-right: 8px;
+  font-size: 12px;
+
+
+  }
+  #mc2 .tick{
+    background-color: white;
+    color: rgb(17, 17, 85);
+    font-size: 12px;
+  }
+
+#dollar{ 
+  font-size: 2.2rem;
+}
+#btn1{
+ 
+ background-color: rgb(15, 15, 81);
+ border-radius: 76px;
+color: white;
+/* padding-top: 20px; */
+margin-top: 30px;
+margin-left:30px ;
+width: 150px;
+height: 40px;
+font-size: 1.1rem;
+
+}
+#mc2  #btn1{
+  background-color: white;
+  color: rgb(11, 11, 99);
+}
+
+#mc2 {
+ background-color: rgb(19, 19, 104);
+
+}
+/* .h2{
+  color: rgb(221, 221, 240);
+} */
+#mc2, .h2, .tagline2{
+  color: white;
+  
+}
+.pricetag2{
+  color: white;
+  margin: 10px;
+}
+
+
+</style>
+
+<body>
+    <!-- Card 1 -->
+    <div class="main_container" >
+        <div classs="sub_container">
+          <h2 >Free Plan</h2>
+          <span id="tagline">For personal</span>
+          <p class="pricetag" id="dollar">&dollar;0</p>
+        </div>
+        <div>
+        <p class="pricetag"><span class="tick">&#x2714; </span>1 User</p>
+        <p class="pricetag"><span class="tick">&#x2714; </span>4 Web mails</p>
+        <p class="pricetag"><span class="tick">&#x2714; </span>Responsive Website</p>
+        <p class="pricetag"><span class="tick">&#x2714; </span> Free SSL</p>
+        </div>
+        <div class="card_section">
+           <button id="btn1">Subscribe now</button> 
+        </div>
+    </div>
+
+<!-- card 2 -->
+            <div class="main_container" id="mc2">
+              <div classs="sub_continer" id="sc2">
+                <h2 class="h2">Basic Plan</h2>
+                <span class="tagline2">For small business</span>
+                <p class="pricetag2" id="dollar">&dollar;29</p>
+              </div>
+              <div>
+              <p class="pricetag2"><span class="tick">&#x2714; </span>4 User</p>
+              <p class="pricetag2"><span class="tick">&#x2714; </span>10 Web mails</p>
+              <p class="pricetag2"><span class="tick">&#x2714; </span>Responsive Website</p>
+              <p class="pricetag2"><span class="tick">&#x2714; </span>Free SSL</p>
+              </div>
+              <div class="card_section">
+              <button id="btn1">Subscribe now</button> 
+            </div>    
+        </div>
+
+        <!-- Card 3 -->
+    <div class="main_container">
+        <div classs="sub_continer">
+            <h2>Pro Plan</h2>
+            <span id="tagline">For enterprise</span>
+            <p class="pricetag" id="dollar">&dollar;49</p>
+        </div>
+      <div>
+      <p class="pricetag"><span class="tick">&#x2714; </span>Unlimited User</p>
+      <p class="pricetag"><span class="tick">&#x2714; </span>Unlimited Web mails</p>
+      <p class="pricetag"><span class="tick">&#x2714; </span>Responsive Website</p>
+      <p class="pricetag"><span class="tick">&#x2714; </span>Free SSL + SEO</p>  
+      </div>
+      <div class="card_section">
+         <button id="btn1">Subscribe now</button> 
+      </div>
+    </div>
+  
+</body>
+</html>
