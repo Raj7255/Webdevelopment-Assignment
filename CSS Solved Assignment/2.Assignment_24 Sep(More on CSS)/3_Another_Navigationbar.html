@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigationbar</title>
+    <link rel="stylesheet" href="3_Another_Navigationbar.css" />
+  </head>
+
+  <style>
+    .nav1 {
+      display: flex;
+      gap: 20px;
+      background-color: rgb(241, 203, 10);
+      padding-left: 40px;
+      border: 2px solid red;
+      border-radius: 5px;
+    }
+
+
+    .p1{
+        border: 2px solid rgb(76, 206, 197);
+    }
+    .p2{
+        border: 2px solid rgb(248, 129, 129);
+    }
+    #p3{
+        border: 2px solid rgb(143, 55, 243);
+    }
+    #p4{
+        border: 2px solid rgb(39, 237, 59);
+    }
+    #p5{
+        border: 2px solid red;
+    }
+
+    a:hover {
+      color: rgb(0, 0, 0);
+      box-sizing: content-box;
+      background-color: #fff;
+      /* border: 1px solid red; */
+      display: inline;
+
+    }
+  </style>
+  <body>
+    <nav class="nav1">
+      <a href=""><p class="p1">Home</p></a>
+      <a href=""><p class="p2">About Us</p></a>
+      <a href=""><p id="p3">Contact</p></a>
+      <a href=""><p id="p4">Blog</p></a>
+      <a href=""><p id="p5">Login</p></a>
+    </nav>
+  </body>
+</html>
