@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body >
+
+
+    <form action="/sign-up" style="border: 2px solid black; width: 400px;">
+        <h1 style="text-align: center; text-decoration: underline;">Sign-up </h1>
+
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter First Name" minlength="3" maxlength="30"><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" minlength="3" maxlength="300"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email id" minlength="3" maxlength="300"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" minlength="6" maxlength="16"><br><br>
+
+        <label for="cnfpassword">Confirm password:</label>
+        <input type="password" name="password" id="cnfpassword" placeholder="Enter Confirm password" minlength="6" maxlength="16"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter Age" min="0" max="150"><br><br>
+
+        <fieldset style="width: 220px;">
+            <legend>Gender</legend>
+
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+
+            <label for="gender1">Female</label>
+             <input type="radio" name="gender" id="gender1">
+
+            <label for="gender2">Other</label>
+            <input type="radio" name="gender" id="gender2"></fieldset><br>
+
+        <input type="checkbox" name="t&c" id="t&c" required>
+        <label for="t&c">Term & Condition</label><br><br>
+
+        <input type="submit"  value="submit" id="submit"><br><br>
+
+        </form>
+        <br><hr><br>
+
+
+    <!-- Sign-in Forms -->
+
+    <form action="" style="border: 2px solid black; width: 400px;">
+        <h1 style="text-align: center; text-decoration: underline;" >Sign-in</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email id" minlength="3" maxlength="30" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" minlength="6" maxlength="16" required><br><br>
+
+        
+        <input type="submit"  value="submit" id="submit"><br><br>
+    </form>
+</body>
+</html>
