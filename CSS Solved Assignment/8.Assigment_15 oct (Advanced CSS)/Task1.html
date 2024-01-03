@@ -1,0 +1,37 @@
+<!-- Explain the purpose of using the var() function in css.
+
+The `var()` function in CSS is used to define and retrieve a variable value. It allows you to create and manage custom variables throughout your stylesheet, providing a flexible and efficient way to store and reuse values. By using `var()`, you can simplify your code, enhance consistency, and make it easier to update values throughout your stylesheet.   -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var</title>
+</head>
+<style>
+    :root{
+      --primaryColor:#00b7ff;
+      --secondaryColor:#6c757d;
+    }
+    #primaryBtn{
+        background-color: var(--primaryColor);
+        color: white;
+        border: none;
+    }
+    #secondaryBtn{
+        background-color: var(--secondaryColor);
+        color: white;
+        border: none;
+        
+    }
+</style>
+<body>
+    <input type="button" id="primaryBtn" value="Primary Button">
+    <input type="button" id="secondaryBtn" value="Secondary Button">
+
+
+</body>
+</html>
