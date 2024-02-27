@@ -1,0 +1,110 @@
+// a) Use the Object.preventEatensions method to prevent and further aditions of properties to the student object.
+const student = {
+    name: "Raj",
+    age: 20,
+    grade: "A"
+  };
+  
+  // Log the original object
+  console.log("Original student object:", student);
+  
+  // Prevent any further additions of properties to the student object
+  Object.preventExtensions(student);
+  
+  // Try to add a new property (this will not throw an error but will not add the property)
+  student.newProperty = "Some value";
+  
+  // Log the modified object
+  console.log("Modified student object:", student);
+  
+
+
+
+
+//   b) Use the Object.isEatensible method to check if the student object is eatensible. Store the result in a variable
+// calle eatensibleStatus.
+
+const student2 = {
+  name: "Raju",
+  age: 25,
+  grade: "A"
+};
+const isExtensibleStatus = Object.isExtensible(student2);
+
+console.log("Is student object extensible?", isExtensibleStatus);
+
+
+
+
+// c) Create a new object called teacher with a 'subject' property set to 'Math'.
+
+const teacher={
+   subject:'math'
+};
+console.log("Teacher object",teacher);
+
+
+
+
+// d) Use the Object.seal method to seal the teacher object, preventing and aditions or deletions of properties.
+
+const teacher1 = {
+  subject: 'Math'
+};
+
+console.log("Original Teacher object:", teacher1);
+
+Object.seal(teacher1);
+
+teacher.newProperty = "Some value";
+
+delete teacher1.subject;
+
+console.log("Modified Teacher object:", teacher1);
+
+
+
+
+// e) Use the Object.isSealed method to check if the teacher object is sealed. Store the result in a variable called sealedStatus.
+
+const teacher2= {
+  subject: 'Math'
+};
+
+Object.seal(teacher2);
+
+const sealedStatus1 = Object.isSealed(teacher2);
+
+console.log("Is teacher object sealed?", sealedStatus1);
+
+
+
+
+// f) Print the eatensibleStatus and sealedStatus to the console.
+
+const student3 = {
+  name: "John Doe",
+  age: 20,
+  grade: "A"
+};
+
+// Check if the student object is extensible
+const extensibleStatus = Object.isExtensible(student3);
+
+// Log the result
+console.log("Is student object extensible?", extensibleStatus);
+
+// Create a new object called teacher
+const teacher3 = {
+  subject: 'Math'
+};
+
+// Seal the teacher object
+Object.seal(teacher3);
+
+// Check if the teacher object is sealed
+const sealedStatus2= Object.isSealed(teacher3);
+
+// Log the result
+console.log("Is teacher object sealed?", sealedStatus2);
+
