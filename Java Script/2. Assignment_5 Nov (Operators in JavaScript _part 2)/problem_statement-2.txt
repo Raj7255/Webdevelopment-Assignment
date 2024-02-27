@@ -1,0 +1,9 @@
+Q.> Describe the usage of the comma operator in JavaScript and provide an example..?
+
+Ans-> The comma operator in JavaScript is used to perform multiple assignments or logic operations in a single statement. It has different meanings depending on its usage, including for
+      separating items in arrays, concatenating strings, and breaking a line in regular expressions.
+
+      Examples:
+
+      conts a=20, b=8, c=9;
+      console.log(a, b, c)
