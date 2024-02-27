@@ -1,0 +1,14 @@
+Q.> Explain the importance of comments in JavaScript and provide examples of single-line and multi-line comments.?
+
+Ans->  In JavaScript, comments are used to provide information or explanation about the code written. They allow developers to make notes on their code, 
+explaining what it does or why certain decisions were made. Comments can be used to document code, make it more readable and understandable to others, and to provide context for the code.
+
+Single-line comments in JavaScript are written using the double-slash or forward-slash character (//) followed by the comment text. Multi-line comments are written using the
+ triple-slash (/* */) character or enclosing comments in block quotation marks ("""). Both types of comments can span multiple lines and can be used to comment out code temporarily
+ while testing or debugging. 
+
+  
+
+
+
+

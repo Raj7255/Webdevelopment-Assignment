@@ -1,0 +1,14 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Ans--> JavaScript operators can be categorized based on their functionality into the following categories:
+
+1. Arithmetic operators: These operators are used for performing mathematical operations such as addition, subtraction, multiplication, division, and modulus. Examples include +, -, \*, /, and %.
+
+2. Comparison operators: These operators are used for comparing two values and returning a Boolean result. Examples include ==, ===, !=, and !=.
+
+3. Logical operators: These operators are used for performing logical operations such as AND, OR, and NOT. Examples include &&, ||, and !.
+
+4. Assignment operators: These operators are used for assigning a value to a variable. 
+
+Additionally, there are bitwise operators, which perform operations on the bits of a binary number.  

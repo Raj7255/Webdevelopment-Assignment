@@ -1,0 +1,4 @@
+Q> Explain what is JavaScript and its role in web development.
+Ans-> JavaScript is a powerful, high-level programming language that allows developers to make interactive and dynamic websites. It is used to make websites more engaging and
+responsive by allowing developers to create custom animations, validate forms, and manipulate page elements in real-time.
+In web development, JavaScript is used for both front-end and back-end development, and it is an essential language for creating modern, interactive websites.  

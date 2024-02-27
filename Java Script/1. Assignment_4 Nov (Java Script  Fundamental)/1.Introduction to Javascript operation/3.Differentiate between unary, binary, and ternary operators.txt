@@ -1,0 +1,12 @@
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Ans-> Unary operators in JavaScript are those that operate on a single operand. They are used for performing operations like incrementing or decrementing a number, 
+bitwise operators, and function calls. Examples of unary operators in JavaScript include +, -, !, ~, and ++.
+
+Binary operators, on the other hand, are those that operate on two operands. They are used to perform arithmetic and logical operations. Examples of binary operators in JavaScript 
+include +, -, \*, \/, %, ==, !=, &&, ||, and &&.
+
+Ternary operators in JavaScript are used for performing conditional operations. They take the form of a question mark followed by a colon, 
+An example of a ternary operator is (x > 0) ? x : -x.  
+
+
