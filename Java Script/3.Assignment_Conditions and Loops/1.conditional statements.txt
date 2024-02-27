@@ -1,0 +1,14 @@
+Q>. What are conditional statements? Explain conditional statements with syntax and examples.?
+
+Ans-> Conditional statements in programming control the flow of execution based on certain conditions. They can allow a program to perform different actions depending on whether 
+      a specified condition is met.
+
+      The most common types of conditional statements are "if-else" statements, which have the following basic syntax:
+
+      if condition:
+            // code to execute if condition is true
+      else:
+           // code to execute if condition is false
+
+     For example, consider a program that calculates the average of a set of numbers. The program can use a conditional statement to check if the input is valid (i.e., a positive number),
+     and if not, to display an error message.

@@ -1,0 +1,49 @@
+Q.> Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and examples...?
+
+Ans-> Loops are a type of control structure in programming that allow code to be executed repeatedly based on a condition or set of conditions. There are several types of loops, 
+      including while, for, and do-while loops. 
+
+Need of loop:-Loops are essential for tasks such as data processing, iteration through arrays and collections, and generating complex algorithms.They enable programmers to write efficient
+               and concise code by avoiding the need to repeat the same block of code multiple times.  
+ 
+While Loop:-  A while loop is a type of control flow statement that allows you to repeatedly execute a block of code as long as a certain condition remains true. 
+              The general syntax for a while loop is:
+
+               while condition: // code to be executed
+
+
+                Here's an example of a while loop in JavaScript:
+
+              let i = 0;
+              while (i < 5) {
+              console.log(i);
+              i++;
+              }
+
+do-While Loop:- A do-while loop is a type of control flow statement in programming, allowing code to be executed repeatedly as long as a condition remains true.
+
+                The syntax of a do-while loop is as follows:
+
+                do { // block of code to be executed } while (condition);
+                
+                Here's an example of a do-whileloop in JavaScript:
+ 
+                let i = 0; 
+                do {
+                console.log(i);
+                i++;
+                } while (i < 5);
+
+For Loop:-A for loop is a programming construct used to iterate through a block of code a specified number of times in JavaScript. The syntax of a for loop is as follows:
+
+          for (initialization; condition; increment/decrement) { // code block to be executed }
+
+          Here's an example of a for loop in JavaScript:
+
+          for (let i = 0; i < 5; i++) {
+          console.log(i);
+          }
+
+
+
+
