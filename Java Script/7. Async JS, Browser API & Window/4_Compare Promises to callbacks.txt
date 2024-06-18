@@ -1,0 +1,7 @@
+Q) Compare Promises to callbacks and discuss why Promises are preferred for managing asynchronous code.
+Ans: Promises and callbacks are both methods for handling asynchronous code, but they have some key differences. Promises are a more modern 
+     and composer-friendly way of managing asynchronous code, allowing for cleaner and more readable code. They also return a value, which 
+     can help with error handling and make it easier to work with asynchronous data. Callbacks, on the other hand, can be less composable 
+     and can lead to callback hell, making the code harder to read and understand. Additionally, callbacks don't return a value, which can 
+     make it more difficult to work with asynchronous data. Overall, Promises are preferred for managing asynchronous code because they are 
+     more modern and cleaner.

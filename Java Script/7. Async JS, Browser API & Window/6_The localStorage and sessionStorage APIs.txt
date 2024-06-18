@@ -1,0 +1,57 @@
+Q6.Describe the purpose and usage of the localStorage and sessionStorage APIs in web development. Give
+suitable examples for each.
+
+ANS=>The localStorage and sessionStorage APIs are mechanisms provided by modern web browsers to store key-value pairs locally within the user's browser. They are part of the Web Storage
+ API and serve different purposes based on the lifespan of the stored data.
+
+localStorage:
+
+Purpose: localStorage is designed to persistently store data with no expiration time. This means the data stored in localStorage will remain even after the browser window is closed and reopened.
+
+Usage:
+Storing Data: You can store data using localStorage.setItem(key, value) and retrieve it using localStorage.getItem(key).
+
+Example:
+
+// Storing data in localStorage
+localStorage.setItem('username', 'John');
+
+// Retrieving data from localStorage
+const username = localStorage.getItem('username');
+console.log(username); 
+// Output: John
+
+Features:
+Data remains stored indefinitely unless explicitly deleted by the user or cleared programmatically.
+Shared across all tabs and windows from the same origin (domain).
+Storage limit is typically around 5MB per domain.
+
+
+
+sessionStorage:
+
+Purpose: sessionStorage is designed for temporary storage that is available only during the current browser session. Once the browser tab is closed, the data is cleared and no longer accessible.
+
+Usage:
+Storing Data: You can store data using sessionStorage.setItem(key, value) and retrieve it using sessionStorage.getItem(key).
+
+Example:
+
+// Storing data in sessionStorage
+sessionStorage.setItem('token', 'abc123');
+
+// Retrieving data from sessionStorage
+const token = sessionStorage.getItem('token');
+console.log(token); // Output: abc123
+
+Features:
+Data is available only within the same session. If the user closes the tab or browser, the data is lost.
+Data is scoped to the current tab. Opening a new tab with the same origin will not share sessionStorage data.
+Similar storage limit as localStorage (around 5MB per domain).
+
+Comparison:
+Persistence: localStorage persists indefinitely until explicitly deleted or cleared, whereas sessionStorage lasts only for the duration of the page session.
+Scope: localStorage data is shared across all tabs and windows of the same origin, while sessionStorage is isolated to the current tab.
+
+
+

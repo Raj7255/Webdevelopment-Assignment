@@ -1,0 +1,35 @@
+Q5. List and briefly explain some common Browser APIs available to JavaScript developers. 
+
+Browser APIs (Application Programming Interfaces) provide JavaScript developers with access to various functionalities and features of web browsers. 
+Here are some common Browser APIs along with brief explanations:
+
+DOM (Document Object Model):
+The DOM API provides a structured representation of HTML and XML documents, allowing JavaScript to interact with and manipulate the content and structure of web pages dynamically.
+
+XHR (XMLHttpRequest):
+This API allows making HTTP requests from the browser, enabling asynchronous data retrieval from a server without refreshing the entire page. It is commonly used in AJAX 
+(Asynchronous JavaScript and XML) applications.
+
+Fetch API:
+The Fetch API provides a modern alternative to XMLHttpRequest for making HTTP requests. It is more powerful and flexible, supporting promises and allowing for more control over
+requests and responses.
+
+Geolocation API:
+This API enables web applications to access the user's geographical location. It provides methods to retrieve the latitude and longitude of the device and can be used for location-based 
+services.
+
+Canvas API:
+The Canvas API allows dynamic, scriptable rendering of 2D shapes and bitmap images. Developers can draw graphics, create animations, and manipulate images directly in the browser using 
+JavaScript.
+
+Web Storage API:
+This API provides mechanisms for storing key-value pairs locally within the user's browser. It includes both sessionStorage (stores data for one session) and localStorage 
+(stores data persistently across sessions).
+
+IndexedDB API:
+IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. It allows web applications to store data locally in the browser with
+support for indexing and querying.
+
+Web Workers API:
+Web Workers enable concurrent scripting by running scripts in the background (in worker threads) separate from the main page. They are useful for executing complex, CPU-intensive tasks 
+without blocking the user interface.
